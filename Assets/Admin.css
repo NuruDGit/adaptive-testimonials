@@ -1,0 +1,104 @@
+/**
+ * Adaptive Testimonials Admin Styles
+ */
+
+.at-admin-container {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.at-form-section,
+.at-list-section {
+    background: #ffffff;
+    padding: 1.5rem;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+}
+
+.at-form-section h2,
+.at-list-section h2 {
+    margin-top: 0;
+    color: #1d2327;
+    border-bottom: 1px solid #c3c4c7;
+    padding-bottom: 0.5rem;
+}
+
+.at-form {
+    margin-top: 1rem;
+}
+
+.at-shortcode-info {
+    background: #f0f6fc;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.at-shortcode-info p {
+    margin: 0.5rem 0;
+    font-family: monospace;
+    font-size: 0.9em;
+}
+
+.delete-testimonial {
+    background: #dc3232;
+    color: white;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.delete-testimonial:hover {
+    background: #c62d2d;
+}
+
+/* Responsive Admin Layout */
+@media (max-width: 1200px) {
+    .at-admin-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Success/Error Messages */
+.at-message {
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 1rem 0;
+}
+
+.at-message.success {
+    background: #d1e7dd;
+    border: 1px solid #badbcc;
+    color: #0f5132;
+}
+
+.at-message.error {
+    background: #f8d7da;
+    border: 1px solid #f5c2c7;
+    color: #842029;
+}
+
+/* Form Styling */
+.at-form .form-table th {
+    padding-left: 0;
+    font-weight: 600;
+}
+
+.at-form .form-table td input,
+.at-form .form-table td textarea,
+.at-form .form-table td select {
+    width: 100%;
+    max-width: 400px;
+}
+
+.at-form .form-table td textarea {
+    height: 100px;
+    resize: vertical;
+}
