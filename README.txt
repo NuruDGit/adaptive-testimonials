@@ -263,7 +263,7 @@ For support, documentation, and feature requests:
 
 * Plugin documentation: https://nurudigitalmarketing.com/docs
 * Support forum: https://nurudigitalmarketing.com/support
-* GitHub repository: https://github.com/nuru-digital/adaptive-testimonials
+* GitHub repository: https://github.com/NuruDGit/adaptive-testimonials
 
 == Requirements ==
 
